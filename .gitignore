@@ -1,0 +1,6 @@
+# Duplicate/template files with spaces (e.g. "index copy.html")
+*[ ]*.html
+
+# OS cruft
+.DS_Store
+Thumbs.db
