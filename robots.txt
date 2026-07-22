@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://indianapolisjunkremoval.org/sitemap.xml
