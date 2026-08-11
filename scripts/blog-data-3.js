@@ -39,7 +39,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Don't want to wait weeks for a scheduled pickup? We can usually get to you same-day or next-day.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["what-cant-be-thrown-in-trash-marion-county", "how-much-does-junk-removal-cost-in-indianapolis", "how-to-choose-a-junk-removal-company"]
@@ -111,7 +111,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Sorted your piles but need the haul-away step handled? We can be there within a day or two.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["spring-cleaning-guide-indianapolis", "where-to-donate-furniture-indianapolis", "seasonal-decluttering-calendar"]
@@ -193,7 +193,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Storm cleanup or a landscaping project left you with more brush and debris than your weekly pickup can handle? We can clear it in one visit.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["spring-cleaning-guide-indianapolis", "seasonal-decluttering-calendar", "how-to-get-rid-of-hot-tub-swing-set"]
@@ -232,7 +232,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Getting ready to list? We can clear excess furniture and clutter in one visit, on your timeline before photos.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp;or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
   `,
@@ -313,7 +313,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>We can meet you at the facility and clear an entire unit in one visit — no repeated trips required.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
 
     <h2>After the Unit Is Empty</h2>
@@ -352,7 +352,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Whichever season you're tackling, we can handle the haul-away in a single visit.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["spring-cleaning-guide-indianapolis", "practical-decluttering-method", "yard-waste-removal-guide"]
@@ -394,7 +394,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Fully licensed and insured, transparent pricing, and a real local presence across Indianapolis and the suburbs.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp;or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
   `,
@@ -441,7 +441,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Once the sellable items are gone, we'll clear everything else in one visit.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["practical-decluttering-method", "where-to-donate-furniture-indianapolis", "how-much-does-junk-removal-cost-in-indianapolis"]

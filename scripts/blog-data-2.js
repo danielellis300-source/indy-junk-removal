@@ -81,7 +81,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Working on a remodel or small demo job? We offer same-day and next-day pickup so your crew isn't stuck waiting.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["junk-removal-vs-dumpster-rental", "renovation-debris-cleanup-guide", "how-much-does-junk-removal-cost-in-indianapolis"]
@@ -162,7 +162,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Book your pickup for Sunday afternoon and your garage project actually finishes this weekend.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["spring-cleaning-guide-indianapolis", "practical-decluttering-method", "how-much-does-junk-removal-cost-in-indianapolis"]
@@ -198,7 +198,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Schedule your move-out haul-away for the day before your move, and start fresh with a clean slate.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp;or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
   `,
@@ -243,7 +243,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>We handle e-waste disposal correctly as part of any cleanout — no separate trip required.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
 
     <h2>Bundling E-Waste Into a Larger Cleanout</h2>
@@ -326,7 +326,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Mid-renovation and need debris gone before the next phase starts? We offer fast turnaround pickups that won't hold up your project.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
 
     <h2>When It's Time for a Dumpster Instead</h2>

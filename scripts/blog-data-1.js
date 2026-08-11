@@ -35,7 +35,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Want a firm, no-obligation price before we show up?</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp; or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
 
@@ -85,7 +85,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Not sure which fits your project? Tell us what you're clearing and we'll tell you straight.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
 
     <h2>Can You Use Both?</h2>
@@ -130,7 +130,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>We handle full estate cleanouts across Indianapolis, Carmel, Fishers, and every surrounding suburb — respectfully and on your timeline.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp;or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
 
@@ -220,7 +220,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>We separate donatable items whenever possible and haul the rest — one visit, less waste.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
   `,
   related: ["estate-cleanout-checklist-indianapolis", "practical-decluttering-method", "downsizing-guide-for-seniors"]
@@ -261,7 +261,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Ready to schedule? We'll confirm your price before anything gets loaded — no surprises.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp;or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
 
@@ -301,7 +301,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>Skip the truck rental and dump runs — we'll clear everything in one visit.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
 
     <h2>When to Call for Help</h2>
@@ -380,7 +380,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>We remove mattresses and box springs from any room — no wrapping, no stairs problem, no waiting for a pickup date.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
     </div>
 
     <h2>Multiple Mattresses at Once</h2>
@@ -424,7 +424,7 @@ module.exports = [
 
     <div class="article-inline-cta">
       <p>We work respectfully and at your pace — including coordinating directly with family members handling logistics from out of town.</p>
-      <a href="../index.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="/#quote" class="btn btn-primary">Get a Free Quote</a>
       &nbsp;or call <a href="tel:3175370940" class="btn btn-outline" style="color:#374151;border-color:#374151;">(317) 537-0940</a>
     </div>
   `,

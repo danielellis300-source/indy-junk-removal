@@ -57,15 +57,15 @@ function header() {
       <div class="logo">Indianapolis<span>Junk</span> Removal Co</div>
       <div class="header-right">
         <div class="header-phone">Call us: <a href="tel:${PHONE_TEL}">${PHONE_DISPLAY}</a></div>
-        <a href="../index.html#quote" class="btn btn-primary">Free Quote</a>
+        <a href="/#quote" class="btn btn-primary">Free Quote</a>
         <div class="menu-wrap">
           <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menuDropdown">&#9776; Menu</button>
           <div class="menu-dropdown" id="menuDropdown" role="menu">
-            <a href="../index.html">Home</a>
-            <a href="../index.html#services">Services</a>
-            <a href="../index.html#areas">Service Areas</a>
-            <a href="index.html">Blog</a>
-            <a href="../index.html#quote">Get a Quote</a>
+            <a href="/">Home</a>
+            <a href="/#services">Services</a>
+            <a href="/#areas">Service Areas</a>
+            <a href="/blog/">Blog</a>
+            <a href="/#quote">Get a Quote</a>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ function header() {
 
 function footer() {
   const cities = [
-    ['Indianapolis', '../index.html'],
+    ['Indianapolis', '/'],
     ['Carmel', '../carmel.html'],
     ['Fishers', '../fishers.html'],
     ['Zionsville', '../zionsville.html'],
@@ -110,10 +110,10 @@ function footer() {
         <div class="footer-col">
           <h4>Resources</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Blog</a></li>
-            <li><a href="../index.html#services">Services</a></li>
-            <li><a href="../index.html#areas">Service Areas</a></li>
-            <li><a href="../index.html#quote">Get a Quote</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#areas">Service Areas</a></li>
+            <li><a href="/#quote">Get a Quote</a></li>
           </ul>
         </div>
 
@@ -189,7 +189,7 @@ function articlePage(a) {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "${SITE}/" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "${SITE}/blog/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "${SITE}/blog/" },
       { "@type": "ListItem", "position": 3, "name": ${JSON.stringify(a.title)}, "item": "${canonical}" }
     ]
   }
@@ -211,7 +211,7 @@ function articlePage(a) {
 
   <nav class="breadcrumb">
     <div class="container">
-      <a href="../index.html">Home</a> &rsaquo; <a href="index.html">Blog</a> &rsaquo; <span>${a.title}</span>
+      <a href="/">Home</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; <span>${a.title}</span>
     </div>
   </nav>
 
@@ -246,7 +246,7 @@ function articlePage(a) {
       <p>Fast, upfront-priced junk removal across Indianapolis and every surrounding suburb. Free quote, same-day service available.</p>
       <div class="cta-actions">
         <a href="tel:${PHONE_TEL}" class="btn btn-white" style="font-size:1.08rem; padding:17px 32px;">Call ${PHONE_DISPLAY}</a>
-        <a href="../index.html#quote" class="btn btn-outline">Request Online Quote</a>
+        <a href="/#quote" class="btn btn-outline">Request Online Quote</a>
       </div>
     </div>
   </section>
@@ -261,7 +261,7 @@ function articlePage(a) {
 }
 
 function indexPage() {
-  const canonical = `${SITE}/blog/index.html`;
+  const canonical = `${SITE}/blog/`;
   const title = 'Junk Removal Tips & Guides | Indianapolis Junk Removal Co Blog';
   const description = 'Practical, insightful guides on junk removal, decluttering, estate cleanouts, and disposal rules for Indianapolis and the surrounding suburbs.';
 
@@ -291,7 +291,7 @@ function indexPage() {
 
   <nav class="breadcrumb">
     <div class="container">
-      <a href="../index.html">Home</a> &rsaquo; <span>Blog</span>
+      <a href="/">Home</a> &rsaquo; <span>Blog</span>
     </div>
   </nav>
 
@@ -316,7 +316,7 @@ function indexPage() {
       <p>Skip the research and just call. Free quote, upfront pricing, same-day service available across Indianapolis.</p>
       <div class="cta-actions">
         <a href="tel:${PHONE_TEL}" class="btn btn-white" style="font-size:1.08rem; padding:17px 32px;">Call ${PHONE_DISPLAY}</a>
-        <a href="../index.html#quote" class="btn btn-outline">Request Online Quote</a>
+        <a href="/#quote" class="btn btn-outline">Request Online Quote</a>
       </div>
     </div>
   </section>
@@ -349,7 +349,7 @@ const rootPages = [
 
 const urls = [
   ...rootPages.map(p => ({ loc: `${SITE}/${p === 'index.html' ? '' : p}`, changefreq: 'monthly', priority: p === 'index.html' ? '1.0' : '0.8' })),
-  { loc: `${SITE}/blog/index.html`, changefreq: 'weekly', priority: '0.7' },
+  { loc: `${SITE}/blog/`, changefreq: 'weekly', priority: '0.7' },
   ...articles.map(a => ({ loc: `${SITE}/blog/${a.slug}.html`, changefreq: 'monthly', priority: '0.6', lastmod: a.date })),
 ];
 
