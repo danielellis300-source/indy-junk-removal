@@ -4,3 +4,7 @@
 # OS cruft
 .DS_Store
 Thumbs.db
+
+# Wrangler local cache/state
+.wrangler
+node_modules

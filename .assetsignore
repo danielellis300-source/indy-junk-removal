@@ -1,3 +1,6 @@
 src
 wrangler.jsonc
 .assetsignore
+.git
+.wrangler
+node_modules
