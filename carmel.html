@@ -56,11 +56,6 @@
         "closes": "17:00"
       }
     ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "134"
-    },
     "areaServed": [
       {"@type": "City", "name": "Indianapolis"},
       {"@type": "City", "name": "Carmel"},
@@ -215,12 +210,28 @@
     .breadcrumb a:hover { color: var(--brand); }
     .breadcrumb span { color: var(--dark); font-weight: 600; }
 
-    /* ── Hero ── */
+    /* ── Hero ──
+       Drop any photo at assets/hero.jpg and it gets the dark tint + white
+       text treatment automatically. Until that file exists, the linear-gradient
+       layer sits on top of background-color and the hero reads as a solid dark
+       tint — intentional, not broken. */
     .hero {
-      background: #ffffff;
-      color: var(--dark);
+      position: relative;
       padding: 80px 0 72px;
-      border-bottom: 1px solid #E5E7EB;
+      color: #fff;
+      background-color: #1F2937;
+      /* Bottom stop is ~opaque --brand (#374151) so the tint reaches the
+         bottom edge and blends seamlessly into the stats bar below —
+         no lighter band where the photo would otherwise show through. */
+      background-image:
+        linear-gradient(to bottom,
+          rgba(24, 31, 43, 0.80) 0%,
+          rgba(27, 35, 49, 0.86) 50%,
+          rgba(55, 65, 81, 0.97) 100%),
+        url('/assets/hero.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
     .hero-inner {
       display: grid;
@@ -236,9 +247,9 @@
       display: inline-flex;
       align-items: center;
       gap: 7px;
-      background: #F9FAFB;
-      border: 1px solid #E5E7EB;
-      color: #374151;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #fff;
       padding: 6px 14px;
       border-radius: 100px;
       font-size: .82rem;
@@ -251,11 +262,13 @@
       font-weight: 900;
       line-height: 1.13;
       margin-bottom: 18px;
+      color: #fff;
+      text-shadow: 0 1px 14px rgba(0, 0, 0, 0.28);
     }
-    .hero h1 em { font-style: normal; color: var(--brand); }
+    .hero h1 em { font-style: normal; color: #fff; }
     .hero-sub {
       font-size: 1.1rem;
-      color: #718096;
+      color: rgba(255, 255, 255, 0.86);
       margin-bottom: 32px;
       max-width: 500px;
     }
@@ -271,11 +284,13 @@
       align-items: center;
       gap: 7px;
       font-size: .88rem;
-      color: #718096;
+      color: rgba(255, 255, 255, 0.86);
     }
-    .check { color: #22c55e; font-size: 1rem; }
-    .hero .btn-outline { color: var(--dark); border-color: #E5E7EB; }
-    .hero .btn-outline:hover { background: #F9FAFB; border-color: var(--dark); }
+    .check { color: #34d399; font-size: 1rem; }
+    .hero .btn-primary { background: #fff; color: var(--dark); }
+    .hero .btn-primary:hover { background: #E5E7EB; }
+    .hero .btn-outline { color: #fff; border-color: rgba(255, 255, 255, 0.7); }
+    .hero .btn-outline:hover { background: rgba(255, 255, 255, 0.1); border-color: #fff; }
 
     /* Hero Form Card */
     .hero-form-card {
@@ -579,6 +594,10 @@
             <input type="tel" id="phone" name="phone" placeholder="(317) 000-0000" required autocomplete="tel" />
           </div>
           <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
             <label for="service">Service Needed</label>
             <select id="service" name="service">
               <option value="">Select a service...</option>
@@ -612,23 +631,23 @@
     <div class="container">
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-num">5+</span>
-          <span class="stat-label">Years in Business</span>
+          <span class="stat-num">Same-Day</span>
+          <span class="stat-label">Response</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-num">1000+</span>
-          <span class="stat-label">Jobs Completed</span>
+          <span class="stat-num">Free</span>
+          <span class="stat-label">No-Obligation Quotes</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-num">great ★</span>
-          <span class="stat-label">Google Rating</span>
+          <span class="stat-num">7 Days/Wk</span>
+          <span class="stat-label">Availability</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-num">Same Day</span>
-          <span class="stat-label">Service Available</span>
+          <span class="stat-num">Upfront</span>
+          <span class="stat-label">Pricing — No Hidden Fees</span>
         </div>
       </div>
     </div>
@@ -890,6 +909,7 @@
     document.getElementById('lead-form').addEventListener('submit', function(e) {
       e.preventDefault();
       var form = this;
+      if (!form.checkValidity()) { form.reportValidity(); return; }
       var btn = form.querySelector('.form-submit');
       btn.textContent = 'Sending...';
       btn.disabled = true;
