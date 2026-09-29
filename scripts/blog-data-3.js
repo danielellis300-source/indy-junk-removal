@@ -333,7 +333,7 @@ module.exports = [
     <p>Instead of one overwhelming annual purge, a season-by-season rhythm keeps clutter from ever fully building back up — and each season in Indiana naturally surfaces a different category worth checking.</p>
 
     <h2>Spring: Winter Gear and the Garage</h2>
-    <p>As winter coats, boots, and gear come out of rotation, it's the natural moment to evaluate what actually got worn versus what sat unused all season. This is also when garages typically need their post-winter reset — road salt residue, damp storage boxes, and general winter accumulation. See our full <a href="spring-cleaning-guide-indianapolis.html">spring cleaning guide</a> for the room-by-room version.</p>
+    <p>As winter coats, boots, and gear come out of rotation, it's the natural moment to evaluate what actually got worn versus what sat unused all season. This is also when garages typically need their post-winter reset — road salt residue, damp storage boxes, and general winter accumulation. See our full <a href="/blog/spring-cleaning-guide-indianapolis.html">spring cleaning guide</a> for the room-by-room version.</p>
 
     <h2>Summer: Yard, Garage Sale Leftovers, and Kids' Outgrown Items</h2>
     <p>Summer is prime garage sale season in most Indianapolis neighborhoods — and whatever doesn't sell is a natural donate-or-haul decision rather than something that goes back into storage for next year. It's also when kids' clothing and gear from the school year need a fast turnover before the next size up arrives.</p>

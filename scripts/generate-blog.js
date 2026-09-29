@@ -38,6 +38,13 @@ function head({ title, description, canonical, ogTitle, ogDescription, extraSche
   <meta property="og:title" content="${ogTitle}" />
   <meta property="og:description" content="${ogDescription}" />
   <meta property="og:type" content="article" />
+  <meta property="og:image" content="${SITE}/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="${SITE}/assets/og-image.png" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
   <meta name="robots" content="index, follow" />
   <meta name="geo.region" content="US-IN" />
   <meta name="geo.placename" content="Indianapolis" />
@@ -45,7 +52,7 @@ function head({ title, description, canonical, ogTitle, ogDescription, extraSche
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="/assets/style.css" />
 
 ${extraSchema}
 </head>`;
@@ -76,19 +83,19 @@ function header() {
 function footer() {
   const cities = [
     ['Indianapolis', '/'],
-    ['Carmel', '../carmel.html'],
-    ['Fishers', '../fishers.html'],
-    ['Zionsville', '../zionsville.html'],
-    ['Westfield', '../westfield.html'],
-    ['Noblesville', '../noblesville.html'],
-    ['Avon', '../avon.html'],
-    ['Greenwood', '../greenwood.html'],
-    ['Brownsburg', '../brownsburg.html'],
-    ['Plainfield', '../plainfield.html'],
-    ['Lawrence', '../lawrence.html'],
-    ['Beech Grove', '../beech-grove.html'],
-    ['Speedway', '../speedway.html'],
-    ['Lebanon', '../lebanon.html'],
+    ['Carmel', '/carmel.html'],
+    ['Fishers', '/fishers.html'],
+    ['Zionsville', '/zionsville.html'],
+    ['Westfield', '/westfield.html'],
+    ['Noblesville', '/noblesville.html'],
+    ['Avon', '/avon.html'],
+    ['Greenwood', '/greenwood.html'],
+    ['Brownsburg', '/brownsburg.html'],
+    ['Plainfield', '/plainfield.html'],
+    ['Lawrence', '/lawrence.html'],
+    ['Beech Grove', '/beech-grove.html'],
+    ['Speedway', '/speedway.html'],
+    ['Lebanon', '/lebanon.html'],
   ];
   return `<footer class="site-footer">
     <div class="container">
@@ -154,7 +161,7 @@ function scripts() {
 function relatedCard(slug) {
   const a = bySlug[slug];
   if (!a) return '';
-  return `<a href="${a.slug}.html" class="post-card" style="text-decoration:none;">
+  return `<a href="/blog/${a.slug}.html" class="post-card" style="text-decoration:none;">
           <span class="post-category">${a.category}</span>
           <h2 style="font-size:1.05rem;">${a.title}</h2>
           <p>${a.excerpt}</p>
@@ -277,7 +284,7 @@ function indexPage() {
 
   const sorted = [...articles].sort((a, b) => (a.date < b.date ? 1 : -1));
 
-  const cards = sorted.map(a => `<a href="${a.slug}.html" class="post-card" style="text-decoration:none;">
+  const cards = sorted.map(a => `<a href="/blog/${a.slug}.html" class="post-card" style="text-decoration:none;">
           <span class="post-category">${a.category}</span>
           <h2>${a.title}</h2>
           <p>${a.excerpt}</p>

@@ -13,6 +13,13 @@
 
   <meta name="robots" content="index, follow" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://indianapolisjunkremoval.org/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://indianapolisjunkremoval.org/assets/og-image.png" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
   <meta name="geo.region" content="US-IN" />
   <meta name="geo.placename" content="Speedway" />
 
@@ -520,6 +527,42 @@
       color: #444;
     }
 
+    /* guides:css:start */
+    /* ── Helpful Guides ── */
+    .guides-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+      margin-top: 48px;
+      text-align: left;
+    }
+    .guide-card {
+      display: flex;
+      flex-direction: column;
+      border: 1.5px solid #E5E7EB;
+      border-radius: 12px;
+      padding: 26px 22px;
+      background: #fff;
+      text-decoration: none;
+      transition: box-shadow .25s, transform .25s;
+    }
+    .guide-card:hover { box-shadow: 0 10px 36px rgba(0,0,0,.09); transform: translateY(-4px); }
+    .guide-category {
+      align-self: flex-start;
+      font-size: .74rem;
+      font-weight: 700;
+      letter-spacing: .4px;
+      text-transform: uppercase;
+      color: var(--brand);
+      background: var(--light-bg);
+      border-radius: 100px;
+      padding: 4px 12px;
+      margin-bottom: 14px;
+    }
+    .guide-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--dark); line-height: 1.4; margin-bottom: 8px; }
+    .guide-card p  { font-size: .9rem; color: #718096; line-height: 1.65; flex-grow: 1; margin-bottom: 14px; }
+    .guide-more { font-size: .88rem; font-weight: 700; color: var(--brand); }
+    /* guides:css:end */
     /* ── Responsive polish ── */
     @media (max-width: 768px) {
       .hero { padding: 52px 0 44px; }
@@ -529,6 +572,16 @@
       .cta-actions { flex-direction: column; align-items: center; }
     }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://indianapolisjunkremoval.org/" },
+      { "@type": "ListItem", "position": 2, "name": "Junk Removal in Speedway, IN", "item": "https://indianapolisjunkremoval.org/speedway.html" }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -760,19 +813,19 @@
       </p>
       <div class="areas-grid">
         <a class="area-pill" href="/">Indianapolis</a>
-        <a class="area-pill" href="carmel.html">Carmel</a>
-        <a class="area-pill" href="fishers.html">Fishers</a>
-        <a class="area-pill" href="zionsville.html">Zionsville</a>
-        <a class="area-pill" href="westfield.html">Westfield</a>
-        <a class="area-pill" href="noblesville.html">Noblesville</a>
-        <a class="area-pill" href="avon.html">Avon</a>
-        <a class="area-pill" href="greenwood.html">Greenwood</a>
-        <a class="area-pill" href="brownsburg.html">Brownsburg</a>
-        <a class="area-pill" href="plainfield.html">Plainfield</a>
-        <a class="area-pill" href="lawrence.html">Lawrence</a>
-        <a class="area-pill" href="beech-grove.html">Beech Grove</a>
+        <a class="area-pill" href="/carmel.html">Carmel</a>
+        <a class="area-pill" href="/fishers.html">Fishers</a>
+        <a class="area-pill" href="/zionsville.html">Zionsville</a>
+        <a class="area-pill" href="/westfield.html">Westfield</a>
+        <a class="area-pill" href="/noblesville.html">Noblesville</a>
+        <a class="area-pill" href="/avon.html">Avon</a>
+        <a class="area-pill" href="/greenwood.html">Greenwood</a>
+        <a class="area-pill" href="/brownsburg.html">Brownsburg</a>
+        <a class="area-pill" href="/plainfield.html">Plainfield</a>
+        <a class="area-pill" href="/lawrence.html">Lawrence</a>
+        <a class="area-pill" href="/beech-grove.html">Beech Grove</a>
         <div class="area-pill current">Speedway</div>
-        <a class="area-pill" href="lebanon.html">Lebanon</a>
+        <a class="area-pill" href="/lebanon.html">Lebanon</a>
       </div>
     </div>
   </section>
@@ -822,6 +875,35 @@
     </div>
   </section>
 
+  <!-- guides:start -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="section-title">Helpful Guides</h2>
+      <p class="section-sub">Planning a cleanout in Speedway? Start with these.</p>
+      <div class="guides-grid">
+        <a class="guide-card" href="/blog/how-much-does-junk-removal-cost-in-indianapolis.html">
+          <span class="guide-category">Pricing & Planning</span>
+          <h3>How Much Does Junk Removal Cost in Indianapolis? (2026 Price Guide)</h3>
+          <p>Real price ranges by truck load and item type, plus the factors that actually move your quote up or down.</p>
+          <span class="guide-more">Read the guide &rarr;</span>
+        </a>
+        <a class="guide-card" href="/blog/what-cant-be-thrown-in-trash-marion-county.html">
+          <span class="guide-category">Local Guides</span>
+          <h3>What Can't Be Thrown in the Trash in Marion County, Indiana?</h3>
+          <p>Curbside trash in Indianapolis won't take everything. Here's exactly what's restricted and where it actually needs to go.</p>
+          <span class="guide-more">Read the guide &rarr;</span>
+        </a>
+        <a class="guide-card" href="/blog/estate-cleanout-checklist-indianapolis.html">
+          <span class="guide-category">Real Estate</span>
+          <h3>The Ultimate Estate Cleanout Checklist for Indianapolis Families</h3>
+          <p>A calm, step-by-step process for clearing a loved one's home without missing what matters.</p>
+          <span class="guide-more">Read the guide &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- guides:end -->
+
   <section class="cta-banner">
     <div class="container">
       <h2>Ready to Get Rid of the Junk in Speedway?</h2>
@@ -867,18 +949,18 @@
           <h4>Service Areas</h4>
           <ul class="footer-links">
             <li><a href="/">Indianapolis</a></li>
-            <li><a href="carmel.html">Carmel</a></li>
-            <li><a href="fishers.html">Fishers</a></li>
-            <li><a href="zionsville.html">Zionsville</a></li>
-            <li><a href="westfield.html">Westfield</a></li>
-            <li><a href="noblesville.html">Noblesville</a></li>
-            <li><a href="avon.html">Avon</a></li>
-            <li><a href="greenwood.html">Greenwood</a></li>
-            <li><a href="brownsburg.html">Brownsburg</a></li>
-            <li><a href="plainfield.html">Plainfield</a></li>
-            <li><a href="lawrence.html">Lawrence</a></li>
-            <li><a href="beech-grove.html">Beech Grove</a></li>
-            <li><a href="lebanon.html">Lebanon</a></li>
+            <li><a href="/carmel.html">Carmel</a></li>
+            <li><a href="/fishers.html">Fishers</a></li>
+            <li><a href="/zionsville.html">Zionsville</a></li>
+            <li><a href="/westfield.html">Westfield</a></li>
+            <li><a href="/noblesville.html">Noblesville</a></li>
+            <li><a href="/avon.html">Avon</a></li>
+            <li><a href="/greenwood.html">Greenwood</a></li>
+            <li><a href="/brownsburg.html">Brownsburg</a></li>
+            <li><a href="/plainfield.html">Plainfield</a></li>
+            <li><a href="/lawrence.html">Lawrence</a></li>
+            <li><a href="/beech-grove.html">Beech Grove</a></li>
+            <li><a href="/lebanon.html">Lebanon</a></li>
           </ul>
         </div>
 

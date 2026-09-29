@@ -50,7 +50,7 @@ module.exports = [
     <h2>Red Flags in a Quote</h2>
     <p>Be cautious of any company that won't give you a price range before arriving, or that gives a number that changes dramatically once the crew is on-site with no clear reason (like discovering the load is heavier or larger than described). A reputable company explains pricing in plain terms — truck space plus any weight or access surcharges — before a single item gets loaded.</p>
 
-    <p>If you're weighing whether to rent a dumpster instead, we cover that trade-off in detail in <a href="junk-removal-vs-dumpster-rental.html">Junk Removal vs. Dumpster Rental</a>.</p>
+    <p>If you're weighing whether to rent a dumpster instead, we cover that trade-off in detail in <a href="/blog/junk-removal-vs-dumpster-rental.html">Junk Removal vs. Dumpster Rental</a>.</p>
   `,
   related: ["junk-removal-vs-dumpster-rental", "how-to-prepare-for-junk-removal-appointment", "how-to-choose-a-junk-removal-company"]
 },
@@ -89,7 +89,7 @@ module.exports = [
     </div>
 
     <h2>Can You Use Both?</h2>
-    <p>Yes — some renovation projects call for a dumpster during demo (for drywall, flooring, framing debris) and a separate junk removal call for furniture, appliances, or items that need careful handling. If that's your situation, see our guide on <a href="renovation-debris-cleanup-guide.html">managing debris during a home remodel</a>.</p>
+    <p>Yes — some renovation projects call for a dumpster during demo (for drywall, flooring, framing debris) and a separate junk removal call for furniture, appliances, or items that need careful handling. If that's your situation, see our guide on <a href="/blog/renovation-debris-cleanup-guide.html">managing debris during a home remodel</a>.</p>
 
     <h2>Bottom Line</h2>
     <p>If your junk is already sitting there today and you want it gone without lifting a finger, call a junk removal crew. If you're mid-renovation and debris will keep piling up over the coming weeks, a dumpster is the more economical choice. Most Indianapolis homeowners with a one-time cleanout — garage, basement, estate, storage unit — come out ahead with junk removal once labor and time are counted.</p>
@@ -135,7 +135,7 @@ module.exports = [
     </div>
 
     <h2>A Note on Timing and Emotions</h2>
-    <p>There's no rule that says a cleanout has to happen in one weekend. If the family needs to spread the process over a few visits, that's normal — just be mindful of vacant-home risks (mail piling up, pipes in winter, unlocked doors) if the property sits empty for an extended period. If you're also dealing with items that qualify for donation, see <a href="where-to-donate-furniture-indianapolis.html">where to donate furniture and household items in Indianapolis</a> for drop-off options that accept larger loads.</p>
+    <p>There's no rule that says a cleanout has to happen in one weekend. If the family needs to spread the process over a few visits, that's normal — just be mindful of vacant-home risks (mail piling up, pipes in winter, unlocked doors) if the property sits empty for an extended period. If you're also dealing with items that qualify for donation, see <a href="/blog/where-to-donate-furniture-indianapolis.html">where to donate furniture and household items in Indianapolis</a> for drop-off options that accept larger loads.</p>
   `,
   related: ["where-to-donate-furniture-indianapolis", "downsizing-guide-for-seniors", "decluttering-to-sell-your-home"]
 },
@@ -161,12 +161,12 @@ module.exports = [
     </ul>
 
     <h2>Marion County's Large-Item Pickup Program</h2>
-    <p>Indianapolis residents on the city's curbside service do get scheduled large-item pickups for bulky household items, but there are real limits: item caps per pickup, restrictions on what qualifies, and scheduling that can be weeks out — which doesn't help if you're clearing a house for a sale or move this week. We cover exactly how this compares to hiring a crew in <a href="bulk-trash-pickup-vs-junk-removal.html">Bulk Trash Pickup vs. Professional Junk Removal</a>.</p>
+    <p>Indianapolis residents on the city's curbside service do get scheduled large-item pickups for bulky household items, but there are real limits: item caps per pickup, restrictions on what qualifies, and scheduling that can be weeks out — which doesn't help if you're clearing a house for a sale or move this week. We cover exactly how this compares to hiring a crew in <a href="/blog/bulk-trash-pickup-vs-junk-removal.html">Bulk Trash Pickup vs. Professional Junk Removal</a>.</p>
 
     <h2>Where Restricted Items Actually Go</h2>
     <ul>
       <li><strong>Household hazardous waste:</strong> Marion County operates household hazardous waste collection events and a permanent drop-off; check the current schedule before loading up your trunk with old paint cans.</li>
-      <li><strong>Electronics:</strong> Certified e-waste recyclers accept TVs and computers, sometimes for a small fee on CRT units. More detail in <a href="electronics-recycling-indianapolis.html">Electronics Recycling in Indianapolis</a>.</li>
+      <li><strong>Electronics:</strong> Certified e-waste recyclers accept TVs and computers, sometimes for a small fee on CRT units. More detail in <a href="/blog/electronics-recycling-indianapolis.html">Electronics Recycling in Indianapolis</a>.</li>
       <li><strong>Tires:</strong> Most tire retailers will take old tires when you buy new ones, often for $2–5 each.</li>
       <li><strong>Appliances:</strong> Many scrap metal recyclers take appliances for free or even pay a small amount, since they're mostly recyclable steel — but they still need refrigerant removed first.</li>
     </ul>
@@ -216,7 +216,7 @@ module.exports = [
     <p>Donations to registered 501(c)(3) organizations are generally tax-deductible at fair market value. Ask for an itemized receipt at drop-off, and take photos of higher-value items before you hand them over — it makes filing easier if you itemize deductions.</p>
 
     <h2>The Practical Reality: Not Everything Will Be Accepted</h2>
-    <p>This is the most common surprise in a cleanout: you plan to donate most of a room, and the donation center only takes half of it. That's completely normal — it's why most people end up needing both a donation drop-off and a haul-away service for the same cleanout. If you're clearing a whole house rather than a few pieces, our <a href="estate-cleanout-checklist-indianapolis.html">estate cleanout checklist</a> walks through sorting keep/sell/donate/haul before the final pickup.</p>
+    <p>This is the most common surprise in a cleanout: you plan to donate most of a room, and the donation center only takes half of it. That's completely normal — it's why most people end up needing both a donation drop-off and a haul-away service for the same cleanout. If you're clearing a whole house rather than a few pieces, our <a href="/blog/estate-cleanout-checklist-indianapolis.html">estate cleanout checklist</a> walks through sorting keep/sell/donate/haul before the final pickup.</p>
 
     <div class="article-inline-cta">
       <p>We separate donatable items whenever possible and haul the rest — one visit, less waste.</p>
@@ -266,7 +266,7 @@ module.exports = [
     </div>
 
     <h2>After Pickup</h2>
-    <p>Ask for a receipt, especially if any items are being donated on your behalf — some companies can provide documentation for tax purposes. If you're curious what actually happens to your items after the truck pulls away, see <a href="what-happens-to-your-junk-after-pickup.html">What Happens to Your Junk After Pickup</a>.</p>
+    <p>Ask for a receipt, especially if any items are being donated on your behalf — some companies can provide documentation for tax purposes. If you're curious what actually happens to your items after the truck pulls away, see <a href="/blog/what-happens-to-your-junk-after-pickup.html">What Happens to Your Junk After Pickup</a>.</p>
   `,
   related: ["how-much-does-junk-removal-cost-in-indianapolis", "how-to-choose-a-junk-removal-company", "junk-removal-etiquette-what-to-expect"]
 },
@@ -282,7 +282,7 @@ module.exports = [
     <p>After a Midwest winter, most Indianapolis homes have accumulated more than dust — holiday decorations still in the hallway, winter gear piled by the door, a garage nobody's parked a car in since November. Spring is the natural reset point, and having a room-by-room plan keeps the project from stalling out after the first closet.</p>
 
     <h2>Start With the Garage</h2>
-    <p>Garages take the worst of Indianapolis's freeze-thaw winters — salt residue, damp cardboard, anything stored on the floor. Pull everything out onto the driveway on a dry day, sort into keep/donate/toss, and only bring back what earns a spot. This is usually the single biggest volume win of a spring cleanout, and a good candidate for a dedicated haul-away rather than trying to fit it in your own vehicle over multiple trips (more in our <a href="clean-out-garage-in-a-weekend.html">garage cleanout guide</a>).</p>
+    <p>Garages take the worst of Indianapolis's freeze-thaw winters — salt residue, damp cardboard, anything stored on the floor. Pull everything out onto the driveway on a dry day, sort into keep/donate/toss, and only bring back what earns a spot. This is usually the single biggest volume win of a spring cleanout, and a good candidate for a dedicated haul-away rather than trying to fit it in your own vehicle over multiple trips (more in our <a href="/blog/clean-out-garage-in-a-weekend.html">garage cleanout guide</a>).</p>
 
     <h2>Closets and Bedrooms</h2>
     <p>Rotate seasonal clothing first — anything that didn't get worn this past winter is a strong donation candidate. Check for moisture damage in closets against exterior walls, common in older Indianapolis homes without great insulation.</p>
@@ -294,7 +294,7 @@ module.exports = [
     <p>Check expiration dates accumulated over winter comfort-food season, and pull small appliances that haven't been used in over a year. These are easy donation items if functional, and easy hauls if not.</p>
 
     <h2>Yard and Exterior</h2>
-    <p>Winter storm damage — broken branches, damaged fencing, a deck that didn't survive the ice — becomes visible once snow melts. Get this cleared before spring growth makes yard debris harder to access. See our full <a href="yard-waste-removal-guide.html">yard waste removal guide</a> for what's typically included versus what needs special handling.</p>
+    <p>Winter storm damage — broken branches, damaged fencing, a deck that didn't survive the ice — becomes visible once snow melts. Get this cleared before spring growth makes yard debris harder to access. See our full <a href="/blog/yard-waste-removal-guide.html">yard waste removal guide</a> for what's typically included versus what needs special handling.</p>
 
     <h2>A Simple Sequencing Tip</h2>
     <p>Work from the areas that generate the most volume (garage, basement) to the areas that generate the least (bathrooms, linen closets). Momentum matters — clearing a garage first gives you a visible, motivating win before tackling smaller, more tedious spaces.</p>
@@ -336,7 +336,7 @@ module.exports = [
     <ul>
       <li><strong>Retailer haul-away</strong> — many appliance stores will remove your old unit when delivering a new one, often for a fee or sometimes free</li>
       <li><strong>Scrap metal recyclers</strong> — accept most appliances, may pay for units that are mostly steel</li>
-      <li><strong>Municipal large-item pickup</strong> — available but scheduled and limited; see our <a href="bulk-trash-pickup-vs-junk-removal.html">bulk pickup comparison</a></li>
+      <li><strong>Municipal large-item pickup</strong> — available but scheduled and limited; see our <a href="/blog/bulk-trash-pickup-vs-junk-removal.html">bulk pickup comparison</a></li>
       <li><strong>Junk removal service</strong> — handles the lifting, stairs, and legal disposal in one trip, same day</li>
     </ul>
 
@@ -346,7 +346,7 @@ module.exports = [
     </div>
 
     <h2>A Quick Note on "Working" Appliances</h2>
-    <p>If your old appliance still works, check donation options before scrapping — Habitat for Humanity ReStores and similar organizations specifically want working appliances. See <a href="where-to-donate-furniture-indianapolis.html">where to donate furniture and household items</a> for details.</p>
+    <p>If your old appliance still works, check donation options before scrapping — Habitat for Humanity ReStores and similar organizations specifically want working appliances. See <a href="/blog/where-to-donate-furniture-indianapolis.html">where to donate furniture and household items</a> for details.</p>
   `,
   related: ["what-cant-be-thrown-in-trash-marion-county", "mattress-disposal-indianapolis", "where-to-donate-furniture-indianapolis"]
 },
@@ -420,7 +420,7 @@ module.exports = [
     </ul>
 
     <h2>The Final Step: One Clean Handoff</h2>
-    <p>Once keep and family items are removed, the remainder — old furniture, excess belongings, things nobody wanted — is usually best handled in a single scheduled removal rather than family members making repeated trips. It also means the home can be prepped for market or handoff on a predictable date, which matters if it's being sold. See our <a href="estate-cleanout-checklist-indianapolis.html">estate cleanout checklist</a> for the full-house version of this process.</p>
+    <p>Once keep and family items are removed, the remainder — old furniture, excess belongings, things nobody wanted — is usually best handled in a single scheduled removal rather than family members making repeated trips. It also means the home can be prepped for market or handoff on a predictable date, which matters if it's being sold. See our <a href="/blog/estate-cleanout-checklist-indianapolis.html">estate cleanout checklist</a> for the full-house version of this process.</p>
 
     <div class="article-inline-cta">
       <p>We work respectfully and at your pace — including coordinating directly with family members handling logistics from out of town.</p>
