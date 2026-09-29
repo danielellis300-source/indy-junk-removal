@@ -38,7 +38,7 @@ module.exports = [
     </div>
 
     <h2>Building a Repeatable Process</h2>
-    <p>If foreclosure or eviction cleanouts are a recurring part of your work, standardizing the photo-documentation step, the notice timeline, and the removal vendor into a checklist saves real time across a portfolio. Our <a href="/blog/landlords-guide-rental-turnover-cleanouts.html">landlord's guide to rental turnover cleanouts</a> covers the same process for standard move-out turnovers.</p>
+    <p>If foreclosure or eviction cleanouts are a recurring part of your work, standardizing the photo-documentation step, the notice timeline, and the removal vendor into a checklist saves real time across a portfolio. Our <a href="/blog/landlords-guide-rental-turnover-cleanouts">landlord's guide to rental turnover cleanouts</a> covers the same process for standard move-out turnovers.</p>
   `,
   related: ["landlords-guide-rental-turnover-cleanouts", "move-out-junk-removal-checklist", "how-to-choose-a-junk-removal-company"]
 },
@@ -77,7 +77,7 @@ module.exports = [
     <p>For contractors, the real cost of debris isn't just the disposal fee — it's the crew standing around a cluttered site, or a homeowner unhappy about a driveway full of trash bags for two weeks. Scheduling debris pickups at natural project milestones (post-demo, post-drywall, final cleanup) rather than letting debris accumulate keeps the site usable and keeps clients happier.</p>
 
     <h2>Junk Removal vs. a Dedicated Dumpster for Contractors</h2>
-    <p>For short jobs — a bathroom remodel, a single-room renovation — a junk removal pickup after demo day is often more cost-effective than a week-long dumpster rental sitting mostly empty. For larger, multi-week jobs generating debris daily, a dumpster on-site usually wins. Our <a href="/blog/junk-removal-vs-dumpster-rental.html">junk removal vs. dumpster rental comparison</a> breaks this down further.</p>
+    <p>For short jobs — a bathroom remodel, a single-room renovation — a junk removal pickup after demo day is often more cost-effective than a week-long dumpster rental sitting mostly empty. For larger, multi-week jobs generating debris daily, a dumpster on-site usually wins. Our <a href="/blog/junk-removal-vs-dumpster-rental">junk removal vs. dumpster rental comparison</a> breaks this down further.</p>
 
     <div class="article-inline-cta">
       <p>Working on a remodel or small demo job? We offer same-day and next-day pickup so your crew isn't stuck waiting.</p>
@@ -155,7 +155,7 @@ module.exports = [
     <p>Bring the keep pile back in with actual storage logic — wall-mounted racks, labeled bins, and clear floor space near the door for things you use often. This is also when the donate pile goes to drop-off, and the haul-away pile is ready for pickup.</p>
 
     <h2>Indianapolis-Specific Garage Junk</h2>
-    <p>A few items show up in nearly every Indianapolis garage cleanout: old paint cans from house projects (which need hazardous waste disposal, not the trash), salt-damaged tools and equipment from winter, half-used bags of concrete or mulch, and holiday decorations that migrated from the attic. Flag paint and chemicals separately — see <a href="/blog/what-cant-be-thrown-in-trash-marion-county.html">what can't be thrown in the trash in Marion County</a> for proper disposal routes.</p>
+    <p>A few items show up in nearly every Indianapolis garage cleanout: old paint cans from house projects (which need hazardous waste disposal, not the trash), salt-damaged tools and equipment from winter, half-used bags of concrete or mulch, and holiday decorations that migrated from the attic. Flag paint and chemicals separately — see <a href="/blog/what-cant-be-thrown-in-trash-marion-county">what can't be thrown in the trash in Marion County</a> for proper disposal routes.</p>
 
     <h2>Why the Weekend Plan Fails for Most People</h2>
     <p>The most common failure point isn't sorting — it's the haul-away step. A garage's worth of junk rarely fits in a car, which means multiple dump trips, and those trips are what actually stall the project into "next weekend" territory. Scheduling a single pickup for Sunday afternoon, right after sorting finishes, is what actually gets it done in one weekend instead of dragging into the following month.</p>
@@ -247,7 +247,7 @@ module.exports = [
     </div>
 
     <h2>Bundling E-Waste Into a Larger Cleanout</h2>
-    <p>If electronics are just one part of a bigger cleanout — a garage, basement, or estate — it's usually simpler to have everything, including the TVs and old computers, handled in the same visit rather than making a separate e-waste trip. See our full guide on <a href="/blog/what-cant-be-thrown-in-trash-marion-county.html">what can't be thrown in the trash in Marion County</a> for the complete restricted-items list.</p>
+    <p>If electronics are just one part of a bigger cleanout — a garage, basement, or estate — it's usually simpler to have everything, including the TVs and old computers, handled in the same visit rather than making a separate e-waste trip. See our full guide on <a href="/blog/what-cant-be-thrown-in-trash-marion-county">what can't be thrown in the trash in Marion County</a> for the complete restricted-items list.</p>
   `,
   related: ["what-cant-be-thrown-in-trash-marion-county", "what-happens-to-your-junk-after-pickup", "appliance-disposal-guide"]
 },
@@ -330,7 +330,7 @@ module.exports = [
     </div>
 
     <h2>When It's Time for a Dumpster Instead</h2>
-    <p>For projects generating debris continuously over several weeks, a dumpster on-site is usually more practical than repeated pickups. See <a href="/blog/junk-removal-vs-dumpster-rental.html">Junk Removal vs. Dumpster Rental</a> to figure out which fits your specific project timeline.</p>
+    <p>For projects generating debris continuously over several weeks, a dumpster on-site is usually more practical than repeated pickups. See <a href="/blog/junk-removal-vs-dumpster-rental">Junk Removal vs. Dumpster Rental</a> to figure out which fits your specific project timeline.</p>
   `,
   related: ["construction-debris-removal-guide", "junk-removal-vs-dumpster-rental", "how-much-does-junk-removal-cost-in-indianapolis"]
 },

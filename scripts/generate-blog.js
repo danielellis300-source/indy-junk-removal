@@ -83,19 +83,19 @@ function header() {
 function footer() {
   const cities = [
     ['Indianapolis', '/'],
-    ['Carmel', '/carmel.html'],
-    ['Fishers', '/fishers.html'],
-    ['Zionsville', '/zionsville.html'],
-    ['Westfield', '/westfield.html'],
-    ['Noblesville', '/noblesville.html'],
-    ['Avon', '/avon.html'],
-    ['Greenwood', '/greenwood.html'],
-    ['Brownsburg', '/brownsburg.html'],
-    ['Plainfield', '/plainfield.html'],
-    ['Lawrence', '/lawrence.html'],
-    ['Beech Grove', '/beech-grove.html'],
-    ['Speedway', '/speedway.html'],
-    ['Lebanon', '/lebanon.html'],
+    ['Carmel', '/carmel'],
+    ['Fishers', '/fishers'],
+    ['Zionsville', '/zionsville'],
+    ['Westfield', '/westfield'],
+    ['Noblesville', '/noblesville'],
+    ['Avon', '/avon'],
+    ['Greenwood', '/greenwood'],
+    ['Brownsburg', '/brownsburg'],
+    ['Plainfield', '/plainfield'],
+    ['Lawrence', '/lawrence'],
+    ['Beech Grove', '/beech-grove'],
+    ['Speedway', '/speedway'],
+    ['Lebanon', '/lebanon'],
   ];
   return `<footer class="site-footer">
     <div class="container">
@@ -161,7 +161,7 @@ function scripts() {
 function relatedCard(slug) {
   const a = bySlug[slug];
   if (!a) return '';
-  return `<a href="/blog/${a.slug}.html" class="post-card" style="text-decoration:none;">
+  return `<a href="/blog/${a.slug}" class="post-card" style="text-decoration:none;">
           <span class="post-category">${a.category}</span>
           <h2 style="font-size:1.05rem;">${a.title}</h2>
           <p>${a.excerpt}</p>
@@ -170,7 +170,7 @@ function relatedCard(slug) {
 }
 
 function articlePage(a) {
-  const canonical = `${SITE}/blog/${a.slug}.html`;
+  const canonical = `${SITE}/blog/${a.slug}`;
   const title = `${a.title} | Indianapolis Junk Removal Co`;
 
   const articleSchema = `  <script type="application/ld+json">
@@ -284,7 +284,7 @@ function indexPage() {
 
   const sorted = [...articles].sort((a, b) => (a.date < b.date ? 1 : -1));
 
-  const cards = sorted.map(a => `<a href="/blog/${a.slug}.html" class="post-card" style="text-decoration:none;">
+  const cards = sorted.map(a => `<a href="/blog/${a.slug}" class="post-card" style="text-decoration:none;">
           <span class="post-category">${a.category}</span>
           <h2>${a.title}</h2>
           <p>${a.excerpt}</p>
@@ -355,9 +355,9 @@ const rootPages = [
 ];
 
 const urls = [
-  ...rootPages.map(p => ({ loc: `${SITE}/${p === 'index.html' ? '' : p}`, changefreq: 'monthly', priority: p === 'index.html' ? '1.0' : '0.8' })),
+  ...rootPages.map(p => ({ loc: `${SITE}/${p === 'index.html' ? '' : p.replace(/\.html$/, '')}`, changefreq: 'monthly', priority: p === 'index.html' ? '1.0' : '0.8' })),
   { loc: `${SITE}/blog/`, changefreq: 'weekly', priority: '0.7' },
-  ...articles.map(a => ({ loc: `${SITE}/blog/${a.slug}.html`, changefreq: 'monthly', priority: '0.6', lastmod: a.date })),
+  ...articles.map(a => ({ loc: `${SITE}/blog/${a.slug}`, changefreq: 'monthly', priority: '0.6', lastmod: a.date })),
 ];
 
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>

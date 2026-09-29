@@ -1,6 +1,7 @@
 // Applies shared SEO pieces to the hand-maintained pages (index.html + city pages):
 //   - favicon / og:image / twitter:image tags in <head>
-//   - absolute internal links (href="carmel.html" -> href="/carmel.html")
+//   - absolute, clean internal URLs (href="carmel.html" -> href="/carmel"), matching
+//     how the host serves pages (/carmel.html 307-redirects to /carmel)
 //   - BreadcrumbList JSON-LD matching the visible breadcrumb (city pages only)
 //   - "Helpful Guides" section linking evergreen blog posts (city pages only),
 //     with titles/categories pulled from scripts/blog-data-*.js
@@ -81,7 +82,7 @@ function guidesSection(city) {
   const cards = GUIDE_SLUGS.map(slug => {
     const a = bySlug[slug];
     if (!a) throw new Error(`Guide slug not found in blog data: ${slug}`);
-    return `        <a class="guide-card" href="/blog/${a.slug}.html">
+    return `        <a class="guide-card" href="/blog/${a.slug}">
           <span class="guide-category">${a.category}</span>
           <h3>${a.title}</h3>
           <p>${a.excerpt}</p>
@@ -138,6 +139,9 @@ function update(file, isCity) {
 
   // Absolute internal links: page.html, blog/..., assets/...
   html = html.replace(/href="((?:[a-z0-9-]+\.html)|(?:(?:blog|assets)\/[^"]*))"/g, 'href="/$1"');
+  // Clean URLs: drop .html from internal links, canonical/og:url and schema URLs
+  html = html.replace(/href="\/((?:blog\/)?[a-z0-9-]+)\.html"/g, 'href="/$1"');
+  html = html.replace(/https:\/\/indianapolisjunkremoval\.org\/((?:blog\/)?[a-z0-9-]+)\.html/g, `${SITE}/$1`);
 
   if (isCity) {
     const crumb = html.match(/<nav class="breadcrumb">[\s\S]*?<span>([^<]+)<\/span>/);
